@@ -1,0 +1,5 @@
+set_input_delay -max 0.8 [get_ports "A"]
+set_input_delay -max 0.8 [get_ports "B"]
+set_input_delay -max 0.8 [get_ports "C0"]
+set_output_delay -max 0.8 [get_ports "S"]
+set_output_delay -max 0.8 [get_ports "C4"]
